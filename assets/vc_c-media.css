@@ -27,6 +27,9 @@
 .c-media__links ul li a:hover {
   text-decoration: underline;
 }
+.c-media__links ul li:first-of-type a {
+  text-decoration: underline;
+}
 .c-media__media {
   width: 50%;
   height: 100%;

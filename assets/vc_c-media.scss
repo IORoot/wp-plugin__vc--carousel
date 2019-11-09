@@ -40,12 +40,16 @@
                     outline-color: #ffffff;
                     cursor: pointer;
 
-
                     &:hover {
                         text-decoration: underline;
-                    }
-
+                    }           
+                } 
+            }
+            li:first-of-type {
+                a {
+                    text-decoration: underline;
                 }
+                
             }
         }
     }

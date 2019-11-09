@@ -13,7 +13,7 @@
 //  └──────────────────────────────────────┘
 function triggerCmedia(){ 
 
-    jQuery(this).parents(".c-media__linklist").find(".c-media__link").css('text-decoration', '');
+    jQuery(this).parents(".c-media__linklist").find(".c-media__link").css('text-decoration', 'none');
     jQuery(this).css('text-decoration', 'underline');
 
     mediaID = "#"+jQuery(this).attr('id');
