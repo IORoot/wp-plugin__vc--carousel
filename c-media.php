@@ -227,31 +227,36 @@ function create_c_media(){
 					
 
 					<?php if ($media_image_one != ''){
-                        echo $unique_class . ' .c-media__imageitem--' . $media_image_one_id . ' {';
+						echo $unique_class . ' .c-media__imageitem--' . $media_image_one_id; 
+						echo '.lazyloaded {';
                             echo $this->renderImage($media_image_one, 'background-image', true);
                         echo '}';
 					} ?>
 
 					<?php if ($media_image_two != ''){
-                        echo $unique_class . ' .c-media__imageitem--' . $media_image_two_id . ' {';
+						echo $unique_class . ' .c-media__imageitem--' . $media_image_two_id;
+						echo '.lazyloaded {';
                             echo $this->renderImage($media_image_two, 'background-image', true);
                         echo '}';
 					} ?>
 
 					<?php if ($media_image_three != ''){
-                        echo $unique_class . ' .c-media__imageitem--' . $media_image_three_id . ' {';
+						echo $unique_class . ' .c-media__imageitem--' . $media_image_three_id;
+						echo '.lazyloaded {';
                             echo $this->renderImage($media_image_three, 'background-image', true);
                         echo '}';
 					} ?>
 
 					<?php if ($media_image_four != ''){
-                        echo $unique_class . ' .c-media__imageitem--' . $media_image_four_id . ' {';
+						echo $unique_class . ' .c-media__imageitem--' . $media_image_four_id;
+						echo '.lazyloaded {';
                             echo $this->renderImage($media_image_four, 'background-image', true);
                         echo '}';
 					} ?>
 
 					<?php if ($media_image_five != ''){
-                        echo $unique_class . ' .c-media__imageitem--' . $media_image_five_id . ' {';
+						echo $unique_class . ' .c-media__imageitem--' . $media_image_five_id;
+						echo '.lazyloaded {';
                             echo $this->renderImage($media_image_five, 'background-image', true);
                         echo '}';
 					} ?>
@@ -439,32 +444,32 @@ function create_c_media(){
 						
 						<?php  if ($media_image_one_enable == 'enabled'){ ?>					
 							<?php  if ($media_image_one_link_url != ''){ echo $this->buildImageLink($media_image_one_link_url, 'c-media__external--one', $css_class); } ?>
-								<?php echo '<div id="' . $media_image_one_id . '" class="c-media__imageitem c-media__imageitem--' . $media_image_one_id . '"></div>'; ?>
+								<?php echo '<div id="' . $media_image_one_id . '" class="c-media__imageitem lazyload c-media__imageitem--' . $media_image_one_id . '"></div>'; ?>
 							<?php  if ($media_image_one_link_url != ''){ echo '</a>'; }?>
 						<?php } ?>		
 
 
 						<?php  if ($media_image_two_enable == 'enabled'){ ?>					
 							<?php  if ($media_image_two_link_url != ''){ echo $this->buildImageLink($media_image_two_link_url, 'c-media__external--two', $css_class); } ?>
-								<?php echo '<div id="' . $media_image_two_id . '" class="c-media__imageitem c-media__imageitem--' . $media_image_two_id . '"></div>'; ?>
+								<?php echo '<div id="' . $media_image_two_id . '" class="c-media__imageitem lazyload c-media__imageitem--' . $media_image_two_id . '"></div>'; ?>
 							<?php  if ($media_image_two_link_url != ''){ echo '</a>'; }?>
 						<?php } ?>	
 
 						<?php  if ($media_image_three_enable == 'enabled'){ ?>					
 							<?php  if ($media_image_three_link_url != ''){ echo $this->buildImageLink($media_image_three_link_url, 'c-media__external--three', $css_class); } ?>
-								<?php echo '<div id="' . $media_image_three_id . '" class="c-media__imageitem c-media__imageitem--' . $media_image_three_id . '"></div>'; ?>
+								<?php echo '<div id="' . $media_image_three_id . '" class="c-media__imageitem lazyload c-media__imageitem--' . $media_image_three_id . '"></div>'; ?>
 							<?php  if ($media_image_three_link_url != ''){ echo '</a>'; }?>
 						<?php } ?>	
 
 						<?php  if ($media_image_four_enable == 'enabled'){ ?>					
 							<?php  if ($media_image_four_link_url != ''){ echo $this->buildImageLink($media_image_four_link_url, 'c-media__external--four', $css_class); } ?>
-								<?php echo '<div id="' . $media_image_four_id . '" class="c-media__imageitem c-media__imageitem--' . $media_image_four_id . '"></div>'; ?>
+								<?php echo '<div id="' . $media_image_four_id . '" class="c-media__imageitem lazyload c-media__imageitem--' . $media_image_four_id . '"></div>'; ?>
 							<?php  if ($media_image_four_link_url != ''){ echo '</a>'; }?>
 						<?php } ?>	
 
 						<?php  if ($media_image_five_enable == 'enabled'){ ?>					
 							<?php  if ($media_image_five_link_url != ''){ echo $this->buildImageLink($media_image_five_link_url, 'c-media__external--five', $css_class); } ?>
-								<?php echo '<div id="' . $media_image_five_id . '" class="c-media__imageitem c-media__imageitem--' . $media_image_five_id . '"></div>'; ?>
+								<?php echo '<div id="' . $media_image_five_id . '" class="c-media__imageitem lazyload c-media__imageitem--' . $media_image_five_id . '"></div>'; ?>
 							<?php  if ($media_image_five_link_url != ''){ echo '</a>'; }?>
 						<?php } ?>	
 
