@@ -23,6 +23,8 @@
   color: #242424;
   outline-color: #ffffff;
   cursor: pointer;
+  font-size: 76px;
+  line-height: 87px;
 }
 .c-media__links ul li a:hover {
   text-decoration: underline;
