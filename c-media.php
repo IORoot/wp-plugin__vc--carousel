@@ -396,7 +396,7 @@ function create_c_media(){
 							<?php  if ($media_image_one_enable == 'enabled'){ ?>
 								<?php  if ($media_image_one_id != ''){ ?>
 									<?php echo '<li>'; ?>
-										<?php echo '<h1><a class="c-media__link c-media__link--' . $media_image_one_id . '" id="' . $media_image_one_id . '">'.$media_image_one_title.'</a></h1>'; ?>
+										<?php echo '<a class="c-media__link c-media__link--' . $media_image_one_id . '" id="' . $media_image_one_id . '">'.$media_image_one_title.'</a>'; ?>
 									<?php echo '</li>'; ?>
 								<?php } ?>
 							<?php } ?>
@@ -405,7 +405,7 @@ function create_c_media(){
 							<?php  if ($media_image_two_enable == 'enabled'){ ?>
 								<?php  if ($media_image_two_id != ''){ ?>
 									<?php echo '<li>'; ?>
-										<?php echo '<h1><a class="c-media__link c-media__link--' . $media_image_two_id . '" id="' . $media_image_two_id . '">'.$media_image_two_title.'</a></h1>'; ?>
+										<?php echo '<a class="c-media__link c-media__link--' . $media_image_two_id . '" id="' . $media_image_two_id . '">'.$media_image_two_title.'</a>'; ?>
 									<?php echo '</li>'; ?>
 								<?php } ?>
 							<?php } ?>
@@ -413,7 +413,7 @@ function create_c_media(){
 							<?php  if ($media_image_three_enable == 'enabled'){ ?>
 								<?php  if ($media_image_three_id != ''){ ?>
 									<?php echo '<li>'; ?>
-										<?php echo '<h1><a class="c-media__link c-media__link--' . $media_image_three_id . '" id="' . $media_image_three_id . '">'.$media_image_three_title.'</a></h1>'; ?>
+										<?php echo '<a class="c-media__link c-media__link--' . $media_image_three_id . '" id="' . $media_image_three_id . '">'.$media_image_three_title.'</a>'; ?>
 									<?php echo '</li>'; ?>
 								<?php } ?>
 							<?php } ?>
@@ -421,7 +421,7 @@ function create_c_media(){
 							<?php  if ($media_image_four_enable == 'enabled'){ ?>
 								<?php  if ($media_image_four_id != ''){ ?>
 									<?php echo '<li>'; ?>
-										<?php echo '<h1><a class="c-media__link c-media__link--' . $media_image_four_id . '" id="' . $media_image_four_id . '">'.$media_image_four_title.'</a></h1>'; ?>
+										<?php echo '<a class="c-media__link c-media__link--' . $media_image_four_id . '" id="' . $media_image_four_id . '">'.$media_image_four_title.'</a>'; ?>
 									<?php echo '</li>'; ?>
 								<?php } ?>
 							<?php } ?>
@@ -429,7 +429,7 @@ function create_c_media(){
 							<?php  if ($media_image_five_enable == 'enabled'){ ?>
 								<?php  if ($media_image_five_id != ''){ ?>
 									<?php echo '<li>'; ?>
-										<?php echo '<h1><a class="c-media__link c-media__link--' . $media_image_five_id . '" id="' . $media_image_five_id . '">'.$media_image_five_title.'</a></h1>'; ?>
+										<?php echo '<a class="c-media__link c-media__link--' . $media_image_five_id . '" id="' . $media_image_five_id . '">'.$media_image_five_title.'</a>'; ?>
 									<?php echo '</li>'; ?>
 								<?php } ?>
 							<?php } ?>
