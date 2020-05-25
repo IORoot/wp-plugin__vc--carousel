@@ -2,7 +2,7 @@
 /*
 Plugin Name: _ANDYP - WPBakery component : C-Media
 Plugin URI: http://londonparkour.com
-Description: LondonParkour Custom Visual Composer Component - Media
+Description: <strong>🧩COMPONENT</strong> | <em>Edit Page > Visual Composer > LondonParkour </em> | LondonParkour Custom Visual Composer Component - Media
 Version: 1.0
 Author: Andy Pearson
 Author URI: http://londonparkour.com
